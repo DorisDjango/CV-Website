@@ -1,0 +1,48 @@
+a {color: gray;
+    text-decoration: none;}
+ body { margin: 0px;
+        }
+ 
+ .content-container { display: grid;
+                      grid-template-columns: 1fr 1fr;} /*they are two columns, so I put 1fr twice, for each colum*/
+ .navigation-links-wrapper { display: flex;
+                             justify-content: space-between;
+                             margin-bottom: 70px;
+                             font-size: 1.2em;}
+ .wrapper-on-left-with-links > .nav-link-wrapper{ display: inline;
+                                                  padding: 20px;}
+ .text-container { margin-left: 40px;
+                   padding-left: 70px;
+                   padding-right: 150px;}
+ .h1-wrapper { text-transform: uppercase;
+               font-size: 2.5em;}
+ .h2-wrapper { font-size: 2.0em;}
+ .contact-wrapper {line-height: 1.5em;
+                   margin-bottom: 50px;}
+ .contact-wrapper ul {list-style: none;
+                      padding-left: 0px;}
+ .about-wrapper { line-height: 1.5em;
+                  margin-bottom: 50px;}
+ .ul-space-between-items {line-height: 1.5em;
+                          }
+ .contact-2-wrapper ul {list-style: none;
+                        padding-left: 0px;}
+ .green-background-and-image-container { position: relative;}
+ .green-background-and-image-container img {position: fixed;
+                                            top: 50px;
+                                            right:75px;
+                                            }
+ .download-CV { background-color: black;
+                padding: 15px;
+                position: fixed;
+                top: 0px;}
+ .download-CV a {color: white;
+                 font-size: 1.2em;}
+ .footer-wrapper { font-size: 0.9em;}
+ .skills-and-expertise-wrapper {margin-bottom: 50px;}
+ .work-experience-wrapper {margin-bottom: 50px;}
+ .education-wrapper { margin-bottom: 50px;}
+ .key-achievements-wrapper {margin-bottom: 50px;}
+ .contact-2-wrapper { margin-bottom: 50px;}
+ 
+ /* Spacimng in the text content container*/
